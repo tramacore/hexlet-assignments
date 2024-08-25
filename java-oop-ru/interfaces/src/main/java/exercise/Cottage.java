@@ -1,6 +1,6 @@
 package exercise;
 
-public class Cottage implements Home{
+public class Cottage implements Home {
     private double area;
     private int floorCount;
 

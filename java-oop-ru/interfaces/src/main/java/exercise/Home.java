@@ -1,6 +1,6 @@
 package exercise;
 
 public interface Home {
-    public double getArea();
-    public int compareTo(Home another);
+    double getArea();
+    int compareTo(Home another);
 }
