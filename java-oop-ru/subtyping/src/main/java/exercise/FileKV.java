@@ -1,8 +1,5 @@
 package exercise;
 
-import jdk.jshell.execution.Util;
-
-import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;

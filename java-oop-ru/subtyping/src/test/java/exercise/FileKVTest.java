@@ -7,9 +7,7 @@ import java.nio.file.Paths;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import com.fasterxml.jackson.databind.ObjectMapper;
-// BEGIN
 
-// END
 
 
 class FileKVTest {
@@ -22,8 +20,4 @@ class FileKVTest {
         String content = mapper.writeValueAsString(new HashMap<String, String>());
         Files.writeString(filepath, content, StandardOpenOption.TRUNCATE_EXISTING);
     }
-
-    // BEGIN
-    
-    // END
 }
