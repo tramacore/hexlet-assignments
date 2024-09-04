@@ -1,8 +1,6 @@
 package exercise;
 
-import javax.swing.plaf.nimbus.State;
-
-public class LabelTag implements TagInterface{
+public class LabelTag implements TagInterface {
 
     private String tag;
     private TagInterface tagInterface;
@@ -12,15 +10,11 @@ public class LabelTag implements TagInterface{
         this.tagInterface = tagInterface;
     }
 
-    public void setTagInterface(InputTag inputTag) {
-
-    }
-
     @Override
     public String render() {
         StringBuilder stringBuilder = new StringBuilder("<label>");
         if (tagInterface instanceof InputTag) {
-            stringBuilder.append(tag + ((InputTag)tagInterface).render() + "</label>");
+            stringBuilder.append(tag + ((InputTag) tagInterface).render() + "</label>");
             return stringBuilder.toString();
         } else {
             return tagInterface.render();
