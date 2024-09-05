@@ -3,7 +3,9 @@ package exercise;
 import java.util.Map;
 import java.util.List;
 
-import static util.Utils.*;
+import static util.Utils.serialize;
+import static util.Utils.atr;
+import static util.Utils.nameAtr;
 
 public class PairedTag extends Tag {
 
